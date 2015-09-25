@@ -10,7 +10,7 @@ void setup () {
 
       if (n >= 1) 
       { 
-         System.out.println("First "+n+" prime numbers are :-"); 
+         System.out.println("Primeros "+n+" números primos son :-"); 
          System.out.println(2); 
       } 
 
