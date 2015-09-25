@@ -6,7 +6,7 @@ void setup () {
       stroke(250);
       int n, status = 1, num = 3; 
 
-      n = 80; 
+      n = 100; 
 
       if (n >= 1) 
       { 
@@ -31,6 +31,6 @@ void setup () {
          } 
          status = 1; 
          num++;
-         point(width/2 + cos(num) * num, height/2 + sin(num) * num);
+         line(width/2 + cos(num) * num, height/2 + sin(num) * num,num,num);
       }         
    } 
