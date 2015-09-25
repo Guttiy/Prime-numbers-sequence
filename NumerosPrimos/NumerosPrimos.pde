@@ -31,6 +31,6 @@ void setup () {
          } 
          status = 1; 
          num++;
-         line(width/2 + cos(num) * num, height/2 + sin(num) * num,num,num);
+         point(width/2 + cos(num) * num, height/2 + sin(num) * num);
       }         
    } 
