@@ -16,3 +16,14 @@ int padovan (int n) {
 
      return -1;
 }
+
+void setup() {
+   
+ 
+    for(int i =1; i< 20; i++){        
+    print("."+padovan(i));
+           
+                   
+}  
+
+}
