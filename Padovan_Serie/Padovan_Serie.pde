@@ -19,10 +19,15 @@ int padovan (int n) {
 
 void setup() {
    
+ size(850,850);
+  int W = width ;
+  int h = height; 
  
-    for(int i =1; i< 20; i++){        
-    print("."+padovan(i));
-           
+    for(int i = 25; i>= 1; i--){        
+
+       rect((W/2)-(padovan(i)/2),(h/2)-(padovan(i)/2),padovan(i),padovan(i));
+  
+   
                    
 }  
 
