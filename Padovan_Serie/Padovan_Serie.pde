@@ -26,7 +26,7 @@ void setup() {
     for(int i = 25; i>= 1; i--){        
 
        rect((W/2)-(padovan(i)/2),(h/2)-(padovan(i)/2),padovan(i),padovan(i));
-  
+  fill(map(padovan(i), 0, padovan(25),0, 255)); 
    
                    
 }  
