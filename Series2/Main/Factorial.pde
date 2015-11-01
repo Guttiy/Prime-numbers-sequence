@@ -1,4 +1,4 @@
-class Factorial extends Sequence {
+/*class Factorial extends Sequence {
   
   @Override
   String author (String auth){
@@ -23,3 +23,4 @@ class Factorial extends Sequence {
   }
   
 }
+*/
